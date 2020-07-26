@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MuhammetAtalay.XRM.PCF.ExposeInputEvents" constructor="ExposeInputEvents" version="0.0.1" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.Name" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.Description" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="Controller" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.controller.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.controller.Description" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="onBlurScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onBlur.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onBlur.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onChangeScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onChange.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onChange.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onCopyScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCopy.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCopy.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onCutScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCut.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCut.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onClickScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onClick.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onClick.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="ondblClickScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.ondblClick.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.ondblClick.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onFocusScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocus.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocus.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onFocusInScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusIn.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusIn.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onFocusOutScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusOut.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusOut.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onInputScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onInput.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onInput.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onKeyDownScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyDown.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyDown.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onKeyUpScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyUp.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyUp.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onKeyPressScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyPress.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyPress.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onMouseDownScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseDown.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseDown.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onMouseEnterScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseEnter.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseEnter.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onMouseLeaveScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseLeave.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseLeave.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onMouseMoveScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseMove.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseMove.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onMouseOverScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOver.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOver.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onMouseOutScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOut.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOut.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onMouseUpScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseUp.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseUp.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onPasteScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onPaste.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onPaste.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onSelectScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onSelect.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onSelect.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="onWheelScript" display-name-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onWheel.DisplayKey" description-key="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onWheel.Description" of-type="SingleLine.Text" usage="input" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/StyleSheets.css" order="1" />
+      <resx path="strings/Field.1033.resx" version="1.0"/>
+    </resources>
+  </control>
+</manifest>
