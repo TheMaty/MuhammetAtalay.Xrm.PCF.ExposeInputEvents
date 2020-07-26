@@ -1,0 +1,19 @@
+2020-07-26 22:56:28.083 - Info	
+Packing C:\source\repos\MuhammetAtalay.Xrm.PCF.ExposeInputEvents\MuhammetAtalay.Xrm.PCF.ExposeInputEventsComponent\obj\Debug\Metadata to bin\Debug\MuhammetAtalay.Xrm.PCF.ExposeInputEventsComponent.zip
+
+2020-07-26 22:56:28.098 - Info	Processing Component: Entities
+2020-07-26 22:56:28.098 - Info	Processing Component: Roles
+2020-07-26 22:56:28.098 - Info	Processing Component: Workflows
+2020-07-26 22:56:28.098 - Info	Processing Component: FieldSecurityProfiles
+2020-07-26 22:56:28.098 - Info	Processing Component: Templates
+2020-07-26 22:56:28.098 - Info	Processing Component: EntityMaps
+2020-07-26 22:56:28.098 - Info	Processing Component: EntityRelationships
+2020-07-26 22:56:28.114 - Info	Processing Component: OrganizationSettings
+2020-07-26 22:56:28.114 - Info	Processing Component: optionsets
+2020-07-26 22:56:28.114 - Info	Processing Component: CustomControls
+2020-07-26 22:56:28.114 - Info	 - MuhammetAtalay.XRM.PCF.ExposeInputEvents.ExposeInputEvents
+2020-07-26 22:56:28.114 - Info	Processing Component: SolutionPluginAssemblies
+2020-07-26 22:56:28.114 - Info	Processing Component: EntityDataProviders
+2020-07-26 22:56:28.130 - Info	
+Unmanaged Pack complete.
+
