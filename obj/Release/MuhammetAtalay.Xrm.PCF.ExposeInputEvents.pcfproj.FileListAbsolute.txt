@@ -1,0 +1,2 @@
+C:\source\repos\MuhammetAtalay.Xrm.PCF.ExposeInputEvents\obj\Release\MuhammetAtalay.Xrm.PCF.ExposeInputEvents.pcfprojAssemblyReference.cache
+C:\source\repos\MuhammetAtalay.Xrm.PCF.ExposeInputEvents\obj\Release\MuhammetAtalay.Xrm.PCF.ExposeInputEvents.pcfproj.CoreCompileInputs.cache

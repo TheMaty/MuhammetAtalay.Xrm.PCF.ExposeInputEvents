@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.Name" xml:space="preserve">
+    <value>Expose HTML Input Events</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.Description" xml:space="preserve">
+    <value>Expose textbox related events. Please visit www.w3schools.com/jsref/dom_obj_event.asp for browser compatibilities.</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.controller.DisplayKey" xml:space="preserve">
+    <value>ControlName</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.controller.Description" xml:space="preserve">
+    <value>Name of the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onBlur.DisplayKey" xml:space="preserve">
+    <value>onBlurScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onBlur.Description" xml:space="preserve">
+    <value>Script execution when a user leaves field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onChange.DisplayKey" xml:space="preserve">
+    <value>onChangeScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onChange.Description" xml:space="preserve">
+    <value>Script execution when a user changes value of the selected field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCopy.DisplayKey" xml:space="preserve">
+    <value>onCopyScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCopy.Description" xml:space="preserve">
+    <value>Script execution when copying some texts from the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onClick.DisplayKey" xml:space="preserve">
+    <value>onClickScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onClick.Description" xml:space="preserve">
+    <value>Script execution when the field is clicked:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.ondblClick.DisplayKey" xml:space="preserve">
+    <value>ondblClickScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.ondblClick.Description" xml:space="preserve">
+    <value>Script execution when the field is double-clicked:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCut.DisplayKey" xml:space="preserve">
+    <value>onCutScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onCut.Description" xml:space="preserve">
+    <value>Script execution when cutting some texts from the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocus.DisplayKey" xml:space="preserve">
+    <value>onFocusScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocus.Description" xml:space="preserve">
+    <value>Script execution when the field gets focus:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusIn.DisplayKey" xml:space="preserve">
+    <value>onFocusInScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusIn.Description" xml:space="preserve">
+    <value>Script execution when the field is about to get focus:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusOut.DisplayKey" xml:space="preserve">
+    <value>onFocusOutScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onFocusOut.Description" xml:space="preserve">
+    <value>Script execution when the field is about to lose focus:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onInput.DisplayKey" xml:space="preserve">
+    <value>onInputScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onInput.Description" xml:space="preserve">
+    <value>Script execution when the field is about to lose focus:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyDown.DisplayKey" xml:space="preserve">
+    <value>onKeyDownScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyDown.Description" xml:space="preserve">
+    <value>Script to be executed once key is down:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyUp.DisplayKey" xml:space="preserve">
+    <value>onKeyUpScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyUp.Description" xml:space="preserve">
+    <value>Script to be executed once key is down:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyPress.DisplayKey" xml:space="preserve">
+    <value>onKeyPressScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onKeyPress.Description" xml:space="preserve">
+    <value>Script to be executed once key is pressed:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseDown.DisplayKey" xml:space="preserve">
+    <value>onMouseDownScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseDown.Description" xml:space="preserve">
+    <value>Script to be executed when pressing a mouse button over the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseEnter.DisplayKey" xml:space="preserve">
+    <value>onMouseEnterScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseEnter.Description" xml:space="preserve">
+    <value>Script to be executed when moving the mouse pointer onto the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseLeave.DisplayKey" xml:space="preserve">
+    <value>onMouseLeaveScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseLeave.Description" xml:space="preserve">
+    <value>Script to be executed when moving the mouse pointer out of the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseMove.DisplayKey" xml:space="preserve">
+    <value>onMouseMoveScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseMove.Description" xml:space="preserve">
+    <value>Script to be executed when moving the mouse pointer over the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOver.DisplayKey" xml:space="preserve">
+    <value>onMouseOverScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOver.Description" xml:space="preserve">
+    <value>Script to be executed when moving the mouse pointer onto the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOut.DisplayKey" xml:space="preserve">
+    <value>onMouseOutScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseOut.Description" xml:space="preserve">
+    <value>Script to be executed when moving the mouse pointer out of the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseUp.DisplayKey" xml:space="preserve">
+    <value>onMouseUpScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onMouseUp.Description" xml:space="preserve">
+    <value>Script to be executed when releasing a mouse button over the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onPaste.DisplayKey" xml:space="preserve">
+    <value>onPasteScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onPaste.Description" xml:space="preserve">
+    <value>Script to be executed when pasting some texts in the field:</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onSelect.DisplayKey" xml:space="preserve">
+    <value>onSelectScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onSelect.Description" xml:space="preserve">
+    <value>Script to be executed after some texts has been selected in the field:</value>
+  </data>  
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onWheel.DisplayKey" xml:space="preserve">
+    <value>onWheelScript</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.ExposeInputEvents.Field.onWheel.Description" xml:space="preserve">
+    <value>Script to be executed When the user rolls the mouse wheel over the field:</value>
+  </data> 
+</root>

@@ -1,0 +1,112 @@
+var pcf_tools_652ac3f36e1e4bca82eb3c1dc44e6fad =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./ExposeInputEvents/index.ts");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./ExposeInputEvents/index.ts":
+/*!************************************!*\
+  !*** ./ExposeInputEvents/index.ts ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.ExposeInputEvents = void 0;\n\nvar ExposeInputEvents =\n/** @class */\nfunction () {\n  /**\r\n   * Empty constructor.\r\n   */\n  function ExposeInputEvents() {\n    // delegated methods from control\n    this._onblur = \"\";\n    this._onchange = \"\";\n    this._oncopy = \"\";\n    this._oncut = \"\";\n    this._onclick = \"\";\n    this._ondblclick = \"\";\n    this._onfocus = \"\";\n    this._onfocusin = \"\";\n    this._onfocusout = \"\";\n    this._oninput = \"\";\n    this._onkeydown = \"\";\n    this._onkeyup = \"\";\n    this._onkeypress = \"\";\n    this._onmousedown = \"\";\n    this._onmouseenter = \"\";\n    this._onmouseleave = \"\";\n    this._onmousemove = \"\";\n    this._onmouseover = \"\";\n    this._onmouseout = \"\";\n    this._onmouseup = \"\";\n    this._onpaste = \"\";\n    this._onselect = \"\";\n    this._onwheel = \"\";\n  }\n  /**\r\n   * Used to initialize the control instance. Controls can kick off remote server calls and other initialization actions here.\r\n   * Data-set values are not initialized here, use updateView.\r\n   * @param context The entire property bag available to control via Context Object; It contains values as set up by the customizer mapped to property names defined in the manifest, as well as utility functions.\r\n   * @param notifyOutputChanged A callback method to alert the framework that the control has new outputs ready to be retrieved asynchronously.\r\n   * @param state A piece of data that persists in one session for a single user. Can be set at any point in a controls life cycle by calling 'setControlState' in the Mode interface.\r\n   * @param container If a control is marked control-type='standard', it will receive an empty div element within which it can render its content.\r\n   */\n\n\n  ExposeInputEvents.prototype.init = function (context, notifyOutputChanged, state, container) {\n    // Add control initialization code\n    this._context = context; // set the context\n    // Get the defined event handlers\n\n    this._onblur = context.parameters.onBlurScript.raw === null ? \"\" : context.parameters.onBlurScript.raw;\n    this._onchange = context.parameters.onChangeScript.raw === null ? \"\" : context.parameters.onChangeScript.raw;\n    this._oncopy = context.parameters.onCopyScript.raw === null ? \"\" : context.parameters.onCopyScript.raw;\n    this._oncut = context.parameters.onCutScript.raw === null ? \"\" : context.parameters.onCutScript.raw;\n    this._onclick = context.parameters.onClickScript.raw === null ? \"\" : context.parameters.onClickScript.raw;\n    this._ondblclick = context.parameters.ondblClickScript.raw === null ? \"\" : context.parameters.ondblClickScript.raw;\n    this._onfocus = context.parameters.onFocusScript.raw === null ? \"\" : context.parameters.onFocusScript.raw;\n    this._onfocusin = context.parameters.onFocusInScript.raw === null ? \"\" : context.parameters.onFocusInScript.raw;\n    this._onfocusout = context.parameters.onFocusOutScript.raw === null ? \"\" : context.parameters.onFocusOutScript.raw;\n    this._oninput = context.parameters.onInputScript.raw === null ? \"\" : context.parameters.onInputScript.raw;\n    this._onkeydown = context.parameters.onKeyDownScript.raw === null ? \"\" : context.parameters.onKeyDownScript.raw;\n    this._onkeyup = context.parameters.onKeyUpScript.raw === null ? \"\" : context.parameters.onKeyUpScript.raw;\n    this._onkeypress = context.parameters.onKeyPressScript.raw === null ? \"\" : context.parameters.onKeyPressScript.raw;\n    this._onmousedown = context.parameters.onMouseDownScript.raw === null ? \"\" : context.parameters.onMouseDownScript.raw;\n    this._onmouseenter = context.parameters.onMouseEnterScript.raw === null ? \"\" : context.parameters.onMouseEnterScript.raw;\n    this._onmouseleave = context.parameters.onMouseLeaveScript.raw === null ? \"\" : context.parameters.onMouseLeaveScript.raw;\n    this._onmousemove = context.parameters.onMouseMoveScript.raw === null ? \"\" : context.parameters.onMouseMoveScript.raw;\n    this._onmouseover = context.parameters.onMouseOverScript.raw === null ? \"\" : context.parameters.onMouseOverScript.raw;\n    this._onmouseout = context.parameters.onMouseOutScript.raw === null ? \"\" : context.parameters.onMouseOutScript.raw;\n    this._onmouseup = context.parameters.onMouseUpScript.raw === null ? \"\" : context.parameters.onMouseUpScript.raw;\n    this._onpaste = context.parameters.onPasteScript.raw === null ? \"\" : context.parameters.onPasteScript.raw;\n    this._onselect = context.parameters.onSelectScript.raw === null ? \"\" : context.parameters.onSelectScript.raw;\n    this._onwheel = context.parameters.onWheelScript.raw === null ? \"\" : context.parameters.onWheelScript.raw; //Create a textbox\n\n    this.input = document.createElement(\"input\");\n    this.input.className = \"HtmlInputController\";\n    this.input.addEventListener(\"change\", this.onChange.bind(this));\n    this._notifyOutputChanged = notifyOutputChanged; //this.input.addEventListener(\"<eventhandler>\", (event) => { this._value = this._value + 1; this._handler();});\n\n    if (typeof this._onblur !== \"undefined\" && typeof this._onblur !== \"undefined\" && this._onblur != null && this._onblur.length > 0) {\n      this.input.addEventListener(\"blur\", this.onBlur.bind(this));\n    }\n\n    if (typeof this._oncopy !== \"undefined\" && typeof this._oncopy !== \"undefined\" && this._oncopy != null && this._oncopy.length > 0) {\n      this.input.addEventListener(\"copy\", this.onCopy.bind(this));\n    }\n\n    if (typeof this._oncut !== \"undefined\" && typeof this._oncut !== \"undefined\" && this._oncut != null && this._oncut.length > 0) {\n      this.input.addEventListener(\"cut\", this.onCut.bind(this));\n    }\n\n    if (typeof this._onclick !== \"undefined\" && typeof this._onclick !== \"undefined\" && this._onclick != null && this._onclick.length > 0) {\n      this.input.addEventListener(\"click\", this.onClick.bind(this));\n    }\n\n    if (typeof this._ondblclick !== \"undefined\" && typeof this._ondblclick !== \"undefined\" && this._ondblclick != null && this._ondblclick.length > 0) {\n      this.input.addEventListener(\"dblclick\", this.ondblClick.bind(this));\n    }\n\n    if (typeof this._onfocus !== \"undefined\" && typeof this._onfocus !== \"undefined\" && this._onfocus != null && this._onfocus.length > 0) {\n      this.input.addEventListener(\"focus\", this.onFocus.bind(this));\n    }\n\n    if (typeof this._onfocusin !== \"undefined\" && typeof this._onfocusin !== \"undefined\" && this._onfocusin != null && this._onfocusin.length > 0) {\n      this.input.addEventListener(\"focusin\", this.onFocusIn.bind(this));\n    }\n\n    if (typeof this._onfocusout !== \"undefined\" && typeof this._onfocusout !== \"undefined\" && this._onfocusout != null && this._onfocusout.length > 0) {\n      this.input.addEventListener(\"focusout\", this.onFocusOut.bind(this));\n    }\n\n    if (typeof this._oninput !== \"undefined\" && typeof this._oninput !== \"undefined\" && this._oninput != null && this._oninput.length > 0) {\n      this.input.addEventListener(\"input\", this.onInput.bind(this));\n    }\n\n    if (typeof this._onkeydown !== \"undefined\" && typeof this._onkeydown !== \"undefined\" && this._onkeydown != null && this._onkeydown.length > 0) {\n      this.input.addEventListener(\"keydown\", this.onKeyDown.bind(this));\n    }\n\n    if (typeof this._onkeyup !== \"undefined\" && typeof this._onkeyup !== \"undefined\" && this._onkeyup != null && this._onkeyup.length > 0) {\n      this.input.addEventListener(\"keyup\", this.onKeyUp.bind(this));\n    }\n\n    if (typeof this._onkeypress !== \"undefined\" && typeof this._onkeypress !== \"undefined\" && this._onkeypress != null && this._onkeypress.length > 0) {\n      this.input.addEventListener(\"keypress\", this.onKeyPress.bind(this));\n    }\n\n    if (typeof this._onmousedown !== \"undefined\" && typeof this._onmousedown !== \"undefined\" && this._onmousedown != null && this._onmousedown.length > 0) {\n      this.input.addEventListener(\"mousedown\", this.onMouseDown.bind(this));\n    }\n\n    if (typeof this._onmouseenter !== \"undefined\" && typeof this._onmouseenter !== \"undefined\" && this._onmouseenter != null && this._onmouseenter.length > 0) {\n      this.input.addEventListener(\"mouseenter\", this.onMouseEnter.bind(this));\n    }\n\n    if (typeof this._onmouseleave !== \"undefined\" && typeof this._onmouseleave !== \"undefined\" && this._onmouseleave != null && this._onmouseleave.length > 0) {\n      this.input.addEventListener(\"mouseleave\", this.onMouseLeave.bind(this));\n    }\n\n    if (typeof this._onmousemove !== \"undefined\" && typeof this._onmousemove !== \"undefined\" && this._onmousemove != null && this._onmousemove.length > 0) {\n      this.input.addEventListener(\"mousemove\", this.onMouseMove.bind(this));\n    }\n\n    if (typeof this._onmouseover !== \"undefined\" && typeof this._onmouseover !== \"undefined\" && this._onmouseover != null && this._onmouseover.length > 0) {\n      this.input.addEventListener(\"mouseover\", this.onMouseOver.bind(this));\n    }\n\n    if (typeof this._onmouseout !== \"undefined\" && typeof this._onmouseout !== \"undefined\" && this._onmouseout != null && this._onmouseout.length > 0) {\n      this.input.addEventListener(\"mouseout\", this.onMouseOut.bind(this));\n    }\n\n    if (typeof this._onmouseup !== \"undefined\" && typeof this._onmouseup !== \"undefined\" && this._onmouseup != null && this._onmouseup.length > 0) {\n      this.input.addEventListener(\"mouseup\", this.onMouseUp.bind(this));\n    }\n\n    if (typeof this._onpaste !== \"undefined\" && typeof this._onpaste !== \"undefined\" && this._onpaste != null && this._onpaste.length > 0) {\n      this.input.addEventListener(\"paste\", this.onPaste.bind(this));\n    }\n\n    if (typeof this._onselect !== \"undefined\" && typeof this._onselect !== \"undefined\" && this._onselect != null && this._onselect.length > 0) {\n      this.input.addEventListener(\"select\", this.onSelect.bind(this));\n    }\n\n    if (typeof this._onwheel !== \"undefined\" && typeof this._onwheel !== \"undefined\" && this._onwheel != null && this._onwheel.length > 0) {\n      this.input.addEventListener(\"wheel\", this.onWheel.bind(this));\n    } // Adding the label and button created to the container DIV.\n\n\n    container.appendChild(this.input);\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onBlur = function (event) {\n    eval(this._onblur);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeyup Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onCopy = function (event) {\n    eval(this._oncopy);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeypress Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onCut = function (event) {\n    eval(this._oncut);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onClick = function (event) {\n    eval(this._onclick);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeyup Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.ondblClick = function (event) {\n    eval(this._ondblclick);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeypress Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onFocus = function (event) {\n    eval(this._onfocus);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onFocusIn = function (event) {\n    eval(this._onfocusin);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeyup Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onFocusOut = function (event) {\n    eval(this._onfocusout);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onInput = function (event) {\n    eval(this._oninput);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onKeyDown = function (event) {\n    eval(this._onkeydown);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeyup Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onKeyUp = function (event) {\n    eval(this._onkeyup);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeypress Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onKeyPress = function (event) {\n    eval(this._onkeypress);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeypress Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onMouseDown = function (event) {\n    eval(this._onmousedown);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onMouseEnter = function (event) {\n    eval(this._onmouseenter);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeyup Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onMouseLeave = function (event) {\n    eval(this._onmouseleave);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeypress Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onMouseMove = function (event) {\n    eval(this._onmousemove);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onMouseOut = function (event) {\n    eval(this._onmouseout);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeyup Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onMouseOver = function (event) {\n    eval(this._onmouseover);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeypress Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onMouseUp = function (event) {\n    eval(this._onmouseup);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeydown Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onPaste = function (event) {\n    eval(this._onpaste);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeyup Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onSelect = function (event) {\n    eval(this._onselect);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onkeypress Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onWheel = function (event) {\n    eval(this._onwheel);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * onchange Event handler for the input created as part of this control\r\n   * @param event\r\n   */\n\n\n  ExposeInputEvents.prototype.onChange = function (event) {\n    // Get the target\n    var target = event.target; //Set the value of our textfield to the input\n\n    this._value = target.value;\n    eval(this._onchange);\n\n    this._notifyOutputChanged();\n  };\n  /**\r\n   * Called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.\r\n   * @param context The entire property bag available to control via Context Object; It contains values as set up by the customizer mapped to names defined in the manifest, as well as utility functions\r\n   */\n\n\n  ExposeInputEvents.prototype.updateView = function (context) {// Add code to update control view\n  };\n  /**\r\n   * It is called by the framework prior to a control receiving new data.\r\n   * @returns an object based on nomenclature defined in manifest, expecting object[s] for property marked as “bound” or “output”\r\n   */\n\n\n  ExposeInputEvents.prototype.getOutputs = function () {\n    return {\n      Controller: this._value\n    };\n  };\n  /**\r\n   * Called when the control is to be removed from the DOM tree. Controls should use this call for cleanup.\r\n   * i.e. cancelling any pending remote calls, removing listeners, etc.\r\n   */\n\n\n  ExposeInputEvents.prototype.destroy = function () {// Add code to cleanup control if necessary\n  };\n\n  return ExposeInputEvents;\n}();\n\nexports.ExposeInputEvents = ExposeInputEvents;\n\n//# sourceURL=webpack://pcf_tools_652ac3f36e1e4bca82eb3c1dc44e6fad/./ExposeInputEvents/index.ts?");
+
+/***/ })
+
+/******/ });
+if (window.ComponentFramework && window.ComponentFramework.registerControl) {
+	ComponentFramework.registerControl('MuhammetAtalay.XRM.PCF.ExposeInputEvents.ExposeInputEvents', pcf_tools_652ac3f36e1e4bca82eb3c1dc44e6fad.ExposeInputEvents);
+} else {
+	var MuhammetAtalay = MuhammetAtalay || {};
+	MuhammetAtalay.XRM = MuhammetAtalay.XRM || {};
+	MuhammetAtalay.XRM.PCF = MuhammetAtalay.XRM.PCF || {};
+	MuhammetAtalay.XRM.PCF.ExposeInputEvents = MuhammetAtalay.XRM.PCF.ExposeInputEvents || {};
+	MuhammetAtalay.XRM.PCF.ExposeInputEvents.ExposeInputEvents = pcf_tools_652ac3f36e1e4bca82eb3c1dc44e6fad.ExposeInputEvents;
+	pcf_tools_652ac3f36e1e4bca82eb3c1dc44e6fad = undefined;
+}
